@@ -16,7 +16,7 @@ import * as MediaLibrary from 'expo-media-library';
 
 const App = () => {
   const [photos, setPhotos] = useState([]);
-  const API_KEY = "2ocLibMG6gsqWG8UxCGpoUlL1Oy8EeCHCrCoIFY5Q1boUxQ3sbDH3RkF"; // Replace with your Pexels API key
+  const API_KEY = "api-keys"; // Replace with your Pexels API key
 
   useEffect(() => {
     const fetchPhotos = async () => {
